@@ -42,7 +42,7 @@
 <h2>Information that leaves your iPhone</h2>
 
 <h3>Photo estimates with Gemini (optional)</h3>
-<p>This works only if you add your own Gemini API key in Settings. When you take or choose a photo of food, a reduced-size copy of the photo is sent to Google's Gemini API (generativelanguage.googleapis.com), together with a fixed instruction asking for food names, portions and nutrition estimates, and the app language. Your API key is sent in a request header so Google can authenticate the request. The app sends nothing else with the photo, such as your profile, diary or weight. Without a key, no photo is ever sent anywhere.</p>
+<p>This works only if you add your own Gemini API key in Settings. When you take or choose a photo of food, a reduced-size copy of the photo is sent to Google's Gemini API (generativelanguage.googleapis.com), together with a fixed instruction asking for food names, portions and nutrition estimates, and the app language. Your API key is sent in a request header so Google can authenticate the request. The app sends nothing else with the photo, such as your profile, diary or weight. Before anything is sent for the first time, the app asks you to agree, and nothing is sent if you do not. Without a key, no photo is ever sent anywhere.</p>
 
 <h3>Food search translation with Gemini (optional)</h3>
 <p>If you have added a Gemini API key and a food search finds little, the app can send the text you searched for, and then the names of the products found, to the Gemini API to translate them to and from French, because most Open Food Facts entries are in French. No photo, profile or diary data is part of this request. Without a key, nothing is translated or sent.</p>
@@ -112,7 +112,7 @@
 <h2>Информация, която напуска iPhone</h2>
 
 <h3>Оценка по снимка с Gemini (по избор)</h3>
-<p>Работи само ако добавиш собствен Gemini API ключ в Настройки. Когато снимаш или избереш снимка на храна, умалено копие на снимката се изпраща до Gemini API на Google (generativelanguage.googleapis.com), заедно с фиксирана инструкция за имена на храни, порции и хранителни стойности и с езика на приложението. API ключът ти се изпраща в заглавка на заявката, за да удостовери Google заявката. С нея приложението не изпраща нищо друго, например профила, дневника или теглото ти. Без ключ никаква снимка не се изпраща никъде.</p>
+<p>Работи само ако добавиш собствен Gemini API ключ в Настройки. Когато снимаш или избереш снимка на храна, умалено копие на снимката се изпраща до Gemini API на Google (generativelanguage.googleapis.com), заедно с фиксирана инструкция за имена на храни, порции и хранителни стойности и с езика на приложението. API ключът ти се изпраща в заглавка на заявката, за да удостовери Google заявката. С нея приложението не изпраща нищо друго, например профила, дневника или теглото ти. Преди нещо да се изпрати за първи път, приложението иска съгласието ти и ако не се съгласиш, нищо не се изпраща. Без ключ никаква снимка не се изпраща никъде.</p>
 
 <h3>Превод при търсене на храни с Gemini (по избор)</h3>
 <p>Ако си добавил Gemini API ключ и търсенето намери малко, приложението може да изпрати до Gemini API текста, който си търсил, а после имената на намерените продукти, за да ги преведе на и от френски, защото повечето записи в Open Food Facts са на френски. В тази заявка няма снимки, профил или данни от дневника. Без ключ нищо не се превежда и не се изпраща.</p>
