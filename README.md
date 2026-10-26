@@ -2,3 +2,5 @@
 
 Privacy policy of the KaloCalc iPhone app, in English and Bulgarian. Published with GitHub Pages:
 https://nikikab.github.io/kalocalc-privacy-ios/
+
+Support page: https://nikikab.github.io/kalocalc-privacy-ios/support.html

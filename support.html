@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KaloCalc Support</title>
+<style>
+  body { font: 16px/1.6 system-ui, sans-serif; max-width: 42rem; margin: 0 auto; padding: 1rem 1rem 4rem; color: #1b1b1f; background: #fff; }
+  h1 { font-size: 1.7rem; } h2 { font-size: 1.2rem; margin-top: 2rem; } h3 { font-size: 1rem; margin-bottom: .2rem; }
+  nav a { margin-right: 1rem; }
+  hr { margin: 3rem 0; border: 0; border-top: 1px solid #ccc; }
+  @media (prefers-color-scheme: dark) { body { color: #e4e2e6; background: #1b1b1f; } a { color: #b9c3ff; } }
+</style>
+</head>
+<body>
+
+<nav><a href="#en">English</a><a href="#bg">Български</a></nav>
+
+<section id="en">
+<h1>KaloCalc Support</h1>
+<p>KaloCalc is a calorie and nutrition diary for iPhone: log food by search, barcode or photo, and follow your daily goal and weight.</p>
+
+<h2>Contact</h2>
+<p>Questions, problems or ideas: <a href="mailto:nikikabadzhov@gmail.com">nikikabadzhov@gmail.com</a>. Please say which iPhone and iOS version you use and what you were doing when the problem happened. I read every message.</p>
+
+<h2>User guide</h2>
+<p>Step-by-step guides for the app are in <a href="https://nikikab.github.io/mobile_app_calorie_calc_howto/">English</a>, <a href="https://nikikab.github.io/mobile_app_calorie_calc_howto/README.bg">Български</a>, <a href="https://nikikab.github.io/mobile_app_calorie_calc_howto/README.de">Deutsch</a>, <a href="https://nikikab.github.io/mobile_app_calorie_calc_howto/README.fr">Français</a> and <a href="https://nikikab.github.io/mobile_app_calorie_calc_howto/README.es">Español</a>. The Help button in the app opens the guide in your language.</p>
+
+<h2>Common questions</h2>
+
+<h3>How do I get photo estimates of my food?</h3>
+<p>Photo estimates use Google Gemini and need your own free API key. Get one at <a href="https://aistudio.google.com/apikey">aistudio.google.com/apikey</a>, then open Settings in the app, paste the key (or scan its QR code), tap Save key and Test connection. Without a key the app still suggests food names from the photo on your iPhone, but gives no calories.</p>
+
+<h3>The camera or the barcode scanner does not open</h3>
+<p>Allow camera access in the iPhone's Settings → KaloCalc → Camera. You can also choose a photo from your library, or type the food name.</p>
+
+<h3>The Gemini test says my key or model is not accepted</h3>
+<p>Check that the key was copied whole, with no spaces. If the model reports as not found or overloaded, pick another model in Settings, or add the name of one that works for your key.</p>
+
+<h3>A food is not found when I search</h3>
+<p>Search uses the open Open Food Facts database, so some local products are missing. Try another spelling, scan the barcode, or add the food manually. With a Gemini key the app also searches in French, where the database is largest.</p>
+
+<h3>Where is my data, and can I move it to a new phone?</h3>
+<p>Everything is stored on your iPhone only. An iCloud or computer backup of the phone includes it, so restoring a backup on a new iPhone brings it back (you will need to enter your Gemini key again). To remove your data, delete the entries in the app or delete the app.</p>
+
+<h3>How do I change the language?</h3>
+<p>Settings → Language. The app is available in English, Bulgarian, German, French and Spanish.</p>
+
+<h3>Are the calories exact?</h3>
+<p>No. Photo estimates and the calorie target are approximate and are not medical advice.</p>
+
+<h2>Privacy</h2>
+<p>Read the <a href="./">privacy policy</a>.</p>
+</section>
+
+<hr>
+
+<section id="bg" lang="bg">
+<h1>Поддръжка на KaloCalc</h1>
+<p>KaloCalc е дневник за калории и хранене за iPhone: записваш храна с търсене, баркод или снимка и следиш дневната си цел и теглото си.</p>
+
+<h2>Контакт</h2>
+<p>Въпроси, проблеми или идеи: <a href="mailto:nikikabadzhov@gmail.com">nikikabadzhov@gmail.com</a>. Напиши какъв iPhone и каква версия на iOS ползваш и какво си правил, когато е станал проблемът. Чета всяко съобщение.</p>
+
+<h2>Ръководство</h2>
+<p>Ръководства стъпка по стъпка има на <a href="https://nikikab.github.io/mobile_app_calorie_calc_howto/README.bg">български</a>, <a href="https://nikikab.github.io/mobile_app_calorie_calc_howto/">English</a>, <a href="https://nikikab.github.io/mobile_app_calorie_calc_howto/README.de">Deutsch</a>, <a href="https://nikikab.github.io/mobile_app_calorie_calc_howto/README.fr">Français</a> и <a href="https://nikikab.github.io/mobile_app_calorie_calc_howto/README.es">Español</a>. Бутонът „Помощ“ в приложението отваря ръководството на твоя език.</p>
+
+<h2>Чести въпроси</h2>
+
+<h3>Как да получа оценка на храната по снимка?</h3>
+<p>Оценката по снимка ползва Google Gemini и изисква собствен безплатен API ключ. Вземи го от <a href="https://aistudio.google.com/apikey">aistudio.google.com/apikey</a>, после отвори Настройки в приложението, постави ключа (или сканирай QR кода му), натисни „Запази ключа“ и „Тествай връзката“. Без ключ приложението пак предлага имена на храни от снимката на твоя iPhone, но не дава калории.</p>
+
+<h3>Камерата или скенерът за баркод не се отварят</h3>
+<p>Разреши достъпа до камерата в Настройки на iPhone → KaloCalc → Камера. Можеш и да избереш снимка от библиотеката или да въведеш името на храната.</p>
+
+<h3>Тестът на Gemini казва, че ключът или моделът не се приема</h3>
+<p>Провери дали ключът е копиран цял, без интервали. Ако моделът е „не е намерен“ или „претоварен“, избери друг модел в Настройки или добави името на такъв, който работи с твоя ключ.</p>
+
+<h3>Не намирам храна при търсене</h3>
+<p>Търсенето ползва отворената база Open Food Facts, затова някои местни продукти липсват. Опитай друго изписване, сканирай баркода или добави храната ръчно. С Gemini ключ приложението търси и на френски, където базата е най-голяма.</p>
+
+<h3>Къде са данните ми и мога ли да ги прехвърля на нов телефон?</h3>
+<p>Всичко се пази само на твоя iPhone. Резервно копие в iCloud или на компютър го включва, така че възстановяването му на нов iPhone връща данните (Gemini ключът трябва да се въведе отново). За да премахнеш данните си, изтрий записите в приложението или изтрий самото приложение.</p>
+
+<h3>Как да сменя езика?</h3>
+<p>Настройки → Език. Приложението е на английски, български, немски, френски и испански.</p>
+
+<h3>Калориите точни ли са?</h3>
+<p>Не. Оценките по снимка и дневната цел са приблизителни и не са медицински съвет.</p>
+
+<h2>Поверителност</h2>
+<p>Прочети <a href="./">политиката за поверителност</a>.</p>
+</section>
+
+</body>
+</html>
